@@ -37,16 +37,3 @@ class MusicController:
             # print(f"Comando desconocido: {command_name}")
             return False
 
-# Ejemplo de uso (solo para pruebas, no se ejecutará en el script principal)
-if __name__ == "__main__":
-    controller = MusicController()
-    print("Probando Play/Pause en 3 segundos...")
-    time.sleep(3)
-    controller.execute_command("play_pause")
-    print("Probando Siguiente Canción en 3 segundos...")
-    time.sleep(3)
-    controller.execute_command("next_track")
-    print("Probando Subir Volumen en 3 segundos...")
-    time.sleep(3)
-    controller.execute_command("volume_up")
-    print("Pruebas finalizadas.")
